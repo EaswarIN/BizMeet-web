@@ -1,0 +1,168 @@
+
+/*without BEATA TESTER text*/
+@media only screen and (max-width: 400px){
+.top_content .bizmeet_logo{
+  width: 50px;
+  height: 50px;
+}
+.home_top{
+  padding: 0px;
+}
+.top_content h1{font-size: 30px;}
+.top_content .intro {font-size: 18px;}
+.not_user{font-size: 13px;}
+.item .slider_text p{font-size: 18px;}
+}
+
+@media only screen and (min-width: 420px){
+.item img{
+    width:300px;
+    }
+
+}
+@media only screen and (max-width: 480px){
+	.slider_text{
+   	height: 250px;
+   } 
+   #nextform, #sendform{
+    width: 300px;
+   }
+   #form1 h2, #form2 h2 {font-size: 25px;}
+   #form1, #form2 {
+    top: 50%; /* IMPORTANT */
+    left: 50%; /* IMPORTANT */
+    position: absolute;
+    margin-top: -208.5px;/* HALF OF THE HEIGHT */
+    margin-left: -150px;/* HALF OF THE WIDTH */
+  }
+}
+
+@media only screen and (max-width: 340px){
+  #nextform, #sendform{
+    width: 240px;
+  }
+  #submit {
+    margin-top: 10px;
+  }
+  #form1 h2, #form2 h2 {font-size: 20px;}
+  #form1, #form2 {
+    top: 50%; /* IMPORTANT */
+    left: 50%; /* IMPORTANT */
+    position: absolute;
+    /*margin-top: -208.5px; HALF OF THE HEIGHT */
+    margin-left: -120px;/* HALF OF THE WIDTH */
+  }
+
+/*with BEATA TESTER text*/
+  @media only screen and (min-width: 280px){
+  .home_top{
+      height: 480px!important;
+  }
+  }
+  .home_top{
+      height: 500px;
+  }
+/***** end ****** */
+}
+
+@media only screen and (max-width: 678px){
+.carousel-inner{
+  padding: 0px 20px 20px;
+}
+.slider_text{
+   	height: 150px;
+} 
+@media only screen and (min-width: 400px){
+.home_top{
+    height: 500px;
+  }
+}
+}
+@media only screen and (min-width: 678px){
+	.home_top{
+		height: 540px;
+	}
+	.top_content{
+		text-align: left;
+		float: left;
+		width: 55%;
+	}
+	.top_content h1{
+		font-size: 44px;
+	}
+	.wrapper, .bizmeet_container, .carousel-inner{
+	max-width: 660px;
+	}
+
+	.top_content .intro {
+		font-size: 20px;
+	}
+	.phone_screen{
+	display: block;
+    width: 45%;
+    float: left;
+  }
+  .bizmeet_container .intro_text p{
+  	font-size: 32px;
+  	padding-bottom: 0px;
+  }
+  .mobile_screenshot{
+   	display: none;
+   }
+   .bizmeet_features .features_list{
+  	width: 50%;
+  	float: left;
+  	text-align: left;
+  }
+  .bizmeet_features .features_list h2{
+  	background-position: left center;
+  	padding: 10px 0px 18px 75px;
+  }
+  .bizmeet_features .features_list p{
+  	padding: 0px 0px 0px 75px;
+  	font-size: 13px;
+  	font-family: "AvenirNext-UltraLight",Helvetica,Arial,sans-serif;
+  }
+  .slider_content{
+    width: 50%;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .slider_text{
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+  } 
+  .item .active{
+  	margin: auto;
+  	text-align: center;
+  	display: table !important;
+  }
+}
+
+
+@media only screen and (min-width: 940px){
+	.home_top{
+		height: 600px;
+	}
+	.top_content{
+		padding: 40px 20px;
+	}
+	.wrapper, .bizmeet_container, .carousel-inner{
+	max-width: 880px
+	}
+	.top_content .intro {
+		font-size: 24px;
+	}
+}
+
+
+@media only screen and (min-width: 1200px){
+	.wrapper, .bizmeet_container, .carousel-inner{
+	max-width: 960px;
+	}
+	.top_content .intro {
+		font-size: 26px;
+	}
+}
+
